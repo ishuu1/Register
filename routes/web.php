@@ -32,3 +32,4 @@ Route::get('/sum/{first}/{second}', function ($first, $second) {
 //    $replacedSentence = str_replace($first,$second, $sentence);
 //    return view('demo', compact('sentence', 'replacedSentence'));
 //});
+Route::resource('/form', FormController::class);
